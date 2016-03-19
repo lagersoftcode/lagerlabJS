@@ -1,0 +1,23 @@
+{
+  "name": "lagerlabjs",
+  "description": "Lagersoft js lab",
+  "main": "index.js",
+  "authors": [
+    "Lagersoft"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-css": "^3.3.6",
+    "Matter": "matter-js#^0.9.1"
+  }
+}

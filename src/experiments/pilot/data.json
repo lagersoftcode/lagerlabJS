@@ -1,0 +1,9 @@
+{
+  "id":"pilot",
+  "name": "Pilot",
+  "description": "What the..",
+  "image": "preview.jpg",
+  "date": "2016/03/16",
+  "devs": ["ferflores","ozkar"],
+  "scripts": ["/bower_components/Matter/build/matter.min.js", "/experiments/pilot/index.js"]
+}

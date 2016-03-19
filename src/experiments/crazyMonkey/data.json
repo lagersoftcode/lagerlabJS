@@ -1,0 +1,9 @@
+{
+  "id": "crazyMonkey",
+  "name": "Crazy Monkey",
+  "description": "Crazy Monkey was born in Monterrey MX surrounded by carne asada, beer and frijoles",
+  "image": "preview.jpg",
+  "date": "2016/03/17",
+  "devs": ["ferflores"],
+  "scripts": ["/experiments/crazyMonkey/index.js"]
+}

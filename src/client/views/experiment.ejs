@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/bower_components/bootstrap-css/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/experiment.css">
+    <title>Lagersoft JS Lab</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-inverted navbar-fixed-top">
+  	<div class="container-fluid">
+  		<div class="navbar-header">
+  			<a class="navbar-brand" href="/" style="padding-top: 10px; padding-bottom: 10px;">
+  				<img class="img-responsive logo" src="/img/lageronlylogo.png" alt="">
+  			</a>
+  		</div>
+  		<div id="navbar">
+  			<ul class="nav navbar-nav">
+          <li><a href="/" >Lagerlab Home</a></li>
+  			</ul>
+  		</div>
+  	</div>
+  </nav>
+
+  <canvas id="canvas"> </canvas>
+
+  <% experiment.scripts.forEach(function(script) { %>
+    <script src="<%= script %>"></script>
+  <% }); %>
+
+  <script>
+    (function() {
+        var canvas = document.getElementById('canvas'),
+                context = canvas.getContext('2d');
+
+        window.addEventListener('resize', resizeCanvas, false);
+
+        function resizeCanvas() {
+                canvas.width = window.innerWidth;
+                canvas.height = window.innerHeight;
+        }
+        resizeCanvas();
+    })();
+  </script>
+</body>
+
+</html>
