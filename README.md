@@ -1,1 +1,3 @@
 # lagerlabJS
+
+npm start
