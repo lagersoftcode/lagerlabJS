@@ -61,7 +61,7 @@
     }
 
     function createHappyFaces(){
-      for(var x = 0; x< 150; x++){
+      for(var x = 0; x< 50; x++){
         var happyFace = Bodies.circle(Math.random() * sceneWidth, 0, 20, {render:{sprite:{texture:'/experiments/crazyMonkey/img/happyface.png', xScale:.3, yScale:.3}}});
         happyFace.label = 'face';
         World.add(engine.world, [happyFace]);
