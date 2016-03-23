@@ -5,5 +5,5 @@
   "image": "preview.jpg",
   "date": "2016/03/17",
   "devs": ["ferflores"],
-  "scripts": ["/experiments/crazyMonkey/index.js"]
+  "scripts": ["/bower_components/Matter/build/matter.min.js","/experiments/crazyMonkey/index.js"]
 }
